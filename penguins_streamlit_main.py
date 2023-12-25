@@ -18,7 +18,7 @@ st.write(
      Use the form below to get started!"""
 )
 password_guess = st.text_input('What is the password?')
-if password_guess != st.secrest["password"]:
+if password_guess != st.secrets["password"]:
     st.stop()
 
 penguin_df = pd.read_csv("penguins.csv")
