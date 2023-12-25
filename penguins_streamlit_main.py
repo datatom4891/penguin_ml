@@ -17,7 +17,7 @@ st.write(
      Use the form below to get started!"""
 )
 
-penguin_df = pd.read_csv("penguins.csv"))
+penguin_df = pd.read_csv("penguins.csv")
 rf_pickle = open(os.path.join(os.getcwd(),"penguin_ml","random_forest_penguin.pickle"), "rb")
 map_pickle = open(os.path.join(os.getcwd(),"penguin_ml","output_penguin.pickle"),'rb')
 
