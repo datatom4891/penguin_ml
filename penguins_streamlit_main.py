@@ -2,7 +2,8 @@ import streamlit as st
 import seaborn as sns 
 import matplotlib.pyplot as plt
 import pandas as pd
-import pickle 
+import pickle
+import os
 
 from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier
