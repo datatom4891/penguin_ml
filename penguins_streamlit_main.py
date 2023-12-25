@@ -17,6 +17,9 @@ st.write(
      built on the Palmer's Penguins dataset.
      Use the form below to get started!"""
 )
+password_guess = st.text_input('What is the password?')
+if password_guess != st.secrest["password"]:
+    st.stop()
 
 penguin_df = pd.read_csv("penguins.csv")
 rf_pickle = open(os.path.join(os.getcwd(),"random_forest_penguin.pickle"), "rb")
